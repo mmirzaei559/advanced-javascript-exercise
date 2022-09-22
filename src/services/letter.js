@@ -23,7 +23,8 @@ export default class letter {
             return users.data
 
         } catch (e) {
-            console.log('error is: ', e)
+            console.log('error is: ', e);
+            return e.response
         }
     }
 
